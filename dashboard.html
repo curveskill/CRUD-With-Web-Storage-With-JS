@@ -1,25 +1,79 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Dashboard</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <style></style>
-  </head>
 
-  <body>
-    <h4>Dashboard</h4>
+<head>
+  <title>Responsive Website Using Bootstrap</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="assest/images/icons/favicon.jpg" />
+  <!--start bootstrap CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <!--end bootstrap CDN-->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+
+</head>
+<style>
+.table {
+  margin: 15px;
+  }
+
+</style>
+
+<body>
+  <table class="table caption-top">
+    <div class="table">
+       <!-- <caption>List of Employees</caption>  -->
+      <!-- <div class="col-auto">  -->
+        
+        <lable>list of employees</lable>
+        <button type="submit" class="btn btn-primary mb-3">add new employees</button>
+      
+
+    </div>
+    <thead>
+      <tr>
+        <th scope="col">empId</th>
+        <th scope="col">empName</th>
+        <th scope="col">empMobileNo</th>
+        <th scope="col">empStatus</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td scope="row">123</td>
+        <td>Shruthi</td>
+        <td>9502580621</td>
+        <td>active</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td scope="row">345</td>
+        <td>pradeep</td>
+        <td>1234567890</td>
+        <td>active</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td scope="row">567</td>
+        <td>Ashraf</td>
+        <td>0987654321</td>
+        <td>active</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+  </table>
+  <!--Internal Javascript-->
+  <script>
+
+  </script>
+  <!-- <script src="assest/js/baisc.js"></script> -->
+  <!--start bootstrap javascript CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <!--end bootstrap javascript CDN-->
+</body>
+
 </html>
